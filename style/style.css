@@ -32,6 +32,7 @@ header {
     color: white;
     position: fixed;
     z-index: 1;
+    width: 100%;
 }
 
 .navbar {
