@@ -1,0 +1,12 @@
+/* ************** Under 768px **************** */
+
+
+@media screen and (max-width:768px){
+    .fa-bars {
+        display: block;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+}

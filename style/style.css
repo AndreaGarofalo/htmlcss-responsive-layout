@@ -58,3 +58,9 @@ header {
     padding: 7px 15px;
     background-color: white;
 }
+
+.fa-bars {
+    display: none;
+    color: white;
+    font-size: 30px;
+}
