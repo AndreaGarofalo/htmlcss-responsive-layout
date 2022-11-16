@@ -11,6 +11,10 @@ body {
 }
 
 
+section {
+    padding: 50px 0;
+}
+
 /* utility */
 
 .container {
@@ -72,14 +76,10 @@ header {
 /* main */
 
 main {
-    padding-top: 130px;
+    padding-top: 80px;
 }
 
-.col {
-    height: 300px;
-    flex-basis: calc(100% / 3);
-    padding: 10px;
-}
+/* features section */
 
 .features-expl {
     flex-wrap: wrap;
@@ -90,8 +90,26 @@ main {
     flex-basis: calc(100% / 3 *2);
 }
 
+.col {
+    flex-basis: calc(100% / 3);
+    padding: 10px;
+}
+
 .card {
     background-color: #b5ddff;
     border-radius: 15px;
     height: 250px;
 }
+
+/* strategic */
+
+#strategic {
+    background-color: #9792e4;
+}
+
+.strategic-planning > div {
+    flex-basis: 50%;
+    height: 500px;
+    padding: 20px;
+}
+

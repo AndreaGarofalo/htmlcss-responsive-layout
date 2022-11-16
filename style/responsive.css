@@ -10,6 +10,10 @@
     .navbar ul {
         display: none;
     }
+
+    .strategic-planning {
+        flex-direction: column;
+    }
 }
 
 /* ************** Under 576px **************** */
