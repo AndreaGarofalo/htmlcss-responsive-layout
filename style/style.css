@@ -6,8 +6,12 @@
 
 /* general */
 
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 ul {
-    
+    list-style-type: none;
 }
 
 /* utility */
@@ -25,10 +29,17 @@ ul {
 
 header {
     background-color: #0084fd;
+    color: white;
+    position: fixed;
+    z-index: 1;
 }
 
 .navbar {
     justify-content: space-between;
     align-items: center;
+    padding: 15px;
 }
 
+.navbar-link {
+    padding: 5px 12px;
+}
