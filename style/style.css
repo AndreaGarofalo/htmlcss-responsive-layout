@@ -76,16 +76,22 @@ main {
 }
 
 .col {
-    background-color: #b5ddff;
     height: 300px;
-    flex-basis: 30%;
-    margin: 10px;
+    flex-basis: calc(100% / 3);
+    padding: 10px;
 }
 
 .features-expl {
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .features-expl .col:first-child {
-    flex-basis: calc(60% + 20px);
+    flex-basis: calc(100% / 3 *2);
+}
+
+.card {
+    background-color: #b5ddff;
+    border-radius: 15px;
+    height: 250px;
 }

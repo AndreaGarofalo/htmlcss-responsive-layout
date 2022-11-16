@@ -6,11 +6,13 @@
     .fa-bars {
         display: block;
     }
-
+    
     .navbar ul {
         display: none;
     }
 }
+
+/* ************** Under 576px **************** */
 
 @media screen and (max-width:576px) {
     .features-expl {
