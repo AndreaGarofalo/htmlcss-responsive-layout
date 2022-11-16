@@ -1,5 +1,6 @@
 /* ************** Under 768px **************** */
 
+/* navbar */
 
 @media screen and (max-width:768px){
     .fa-bars {
@@ -8,5 +9,11 @@
 
     .navbar ul {
         display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .features-expl {
+        flex-direction: column;
     }
 }
