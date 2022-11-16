@@ -10,9 +10,6 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
-ul {
-    list-style-type: none;
-}
 
 /* utility */
 
@@ -41,6 +38,23 @@ header {
     padding: 15px;
 }
 
+.navbar ul {
+    list-style-type: none;
+    align-items: center;
+}
+
 .navbar-link {
     padding: 5px 12px;
+}
+
+.navbar-link > a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-link > button {
+    border-color: transparent;
+    border-radius: 15px;
+    padding: 7px 15px;
+    background-color: white;
 }
