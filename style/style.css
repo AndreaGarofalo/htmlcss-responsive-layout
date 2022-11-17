@@ -103,13 +103,18 @@ main {
 .card {
     background-color: #b5ddff;
     border-radius: 15px;
-    padding: 0 15px;
-    padding-top: 20px;
-    height: 300px;
+    padding: 0 20px;
+    padding-top: 25px;
+    height: 350px;
 }
 
 .card * {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.card > *:not(.card-description) {
+    text-align: center;
+    width: 100%;
 }
 
 .card-description {
@@ -145,6 +150,13 @@ main {
     border-radius: 15px;
     background-color: #0084fd;
     padding: 5px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.card > i {
+    font-size: 70px;
+    color: #0084fd;
 }
 
 
