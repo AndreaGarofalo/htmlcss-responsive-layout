@@ -21,11 +21,19 @@
 
     .benefit-card {
         flex-basis: calc(50% - 30px);
+        
+    }
+
+    .strategic-left img {
+        margin-bottom: 0;
+    }
+
+    .strategic-planning .strategic-right {
+        margin-top: 30px;
     }
 
     .card {
         flex-direction: column;
-        height: auto;
     }
     
     .card-img img{
@@ -47,4 +55,7 @@
     #about-us .flex {
         flex-direction: column;
     }
-}
+}   
+    .strategic-planning {
+        padding: 4rem;
+    }
