@@ -52,10 +52,14 @@
         flex-direction: column;
     }
 
+    .features-expl .col:first-child {
+        margin-bottom: 30px;
+    }
+
     #about-us .flex {
         flex-direction: column;
     }
-}   
     .strategic-planning {
         padding: 4rem;
     }
+}   
