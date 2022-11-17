@@ -22,6 +22,11 @@ section {
     margin: 0 auto;
 }
 
+.container-small {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .flex {
     display: flex;
 }
@@ -199,4 +204,11 @@ main {
     right: -20px;
     font-size: 70px;
     
+}
+
+/* get started */
+
+#get-started {
+    background-color: #9792e4;
+    text-align: center;
 }
