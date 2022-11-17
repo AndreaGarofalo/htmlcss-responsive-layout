@@ -354,20 +354,41 @@ main {
 /* about us */
 
 .about-us-description {
-    flex-basis: 80%;
+    flex-basis: 70%;
     padding: 0 50px;
 }
 
+.about-us-description > * {
+    margin-bottom: 40px;
+}
+
+.about-us-description > h1 {
+    color: #9792e4;
+}
+
+
+.find-me h2{
+    color: #9792e4;
+    margin-bottom: 20px;
+}
+
+.find-me a{
+    text-decoration: none;
+    background-color: #9792e4;
+    padding: 5px 20px;
+    border-radius: 15px;
+    color: white;
+}
+
 .find-me {
-    flex-basis: 20%;
-    padding: 0 50px;
+    flex-basis: 30%;
+    padding: 0 60px;
 }
 
 .person {
     position: relative;
     width: 150px;
-    height: 150px;
-
+    height: 150px;  
 }
 
 .find-me img {
