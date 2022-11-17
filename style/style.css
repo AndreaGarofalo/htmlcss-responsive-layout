@@ -23,7 +23,7 @@ section {
 }
 
 .container-small {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -409,7 +409,37 @@ main {
 #get-started {
     background-color: #9792e4;
     text-align: center;
-    height: 500px;
+}
+
+#get-started * {
+    padding: 10px 0;
+}
+
+#get-started h4 {
+    font-weight: normal;
+    color: lightgrey;
+}
+
+#get-started h2 {
+    color: white;
+}
+
+#get-started h1 {
+    color: #fdc15f;
+    font-size: 90px;
+}
+
+#get-started p {
+    color: white;
+    font-size: 18px;
+    margin: 40px 60px;
+}
+
+#get-started .get-started-btn  {
+    background-color: white;
+    color: #9792e4;
+    border-radius: 25px;
+    padding: 20px 50px;
 }
 
 /* footer */
