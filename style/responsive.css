@@ -40,6 +40,18 @@
         position: static;
         left: 0;
 }
+/* ************** Under 669px **************** */
+
+@media screen and (max-width:668px) {
+    .card {
+        padding: 10px 5px;
+    }
+
+    .col {
+        padding: 10px 5px;
+    }
+
+}
 
 /* ************** Under 576px **************** */
 
