@@ -133,14 +133,14 @@ main {
     padding: 20px;
 }
 
-.testimonial-card > .testimonial-img {
+.person-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
 }
 
-.testimonial-img > img {
+.testimonial-card img {
     height: 150px;
     transform: translate(-30px); 
 }
@@ -167,4 +167,36 @@ main {
 
 .benefit-title {
     text-align: center;
+}
+
+/* about us */
+
+.about-us-description {
+    flex-basis: 80%;
+    padding: 0 50px;
+}
+
+.find-me {
+    flex-basis: 20%;
+    padding: 0 50px;
+}
+
+.person {
+    position: relative;
+    width: 150px;
+    height: 150px;
+
+}
+
+.find-me img {
+    height: 150px;
+}
+
+.fa-quote-left{
+    color: #9792e4;
+    position: absolute;
+    top: -12px;
+    right: -20px;
+    font-size: 70px;
+    
 }

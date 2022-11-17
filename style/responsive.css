@@ -30,4 +30,8 @@
     .benefit-list {
         flex-direction: column;
     }
+
+    #about-us .flex {
+        flex-direction: column;
+    }
 }
