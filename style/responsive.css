@@ -14,12 +14,20 @@
     .strategic-planning {
         flex-direction: column;
     }
+
+    .benefit-card {
+        flex-basis: calc(50% - 30px);
+    }
 }
 
 /* ************** Under 576px **************** */
 
 @media screen and (max-width:576px) {
     .features-expl {
+        flex-direction: column;
+    }
+
+    .benefit-list {
         flex-direction: column;
     }
 }

@@ -128,7 +128,7 @@ main {
     background-color: #9792e4;
     border-radius: 15px;
     height:200px;
-    margin: 20px;
+    margin: 20px 0;
     align-items: center;
     padding: 20px;
 }
@@ -143,4 +143,28 @@ main {
 .testimonial-img > img {
     height: 150px;
     transform: translate(-30px); 
+}
+
+/* work with us */
+
+#work-with-us {
+    background-color: #9792e4;
+}
+
+.benefit-list {
+    flex-wrap:  wrap;
+    margin: -15px;
+    flex-shrink: 0;
+}
+
+.benefit-card {
+    flex-basis: calc(100% / 3 - 30px);
+    border-radius: 15px;
+    background-color: white;
+    height: 400px;
+    margin: 15px;
+}
+
+.benefit-title {
+    text-align: center;
 }
