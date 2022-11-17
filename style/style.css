@@ -103,8 +103,50 @@ main {
 .card {
     background-color: #b5ddff;
     border-radius: 15px;
-    height: 250px;
+    padding: 0 15px;
+    padding-top: 20px;
+    height: 300px;
 }
+
+.card * {
+    margin-bottom: 20px;
+}
+
+.card-description {
+    flex-basis: 50%;
+    margin-bottom: 0;
+}
+
+.card-img {
+    flex-basis: 50%;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.card-img img{
+    width: 200px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    margin-bottom: 0;
+}
+
+.card h3 {
+    color: #0084fd;
+}
+
+.card p {
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.card a {
+    border-radius: 15px;
+    background-color: #0084fd;
+    padding: 5px 30px;
+}
+
 
 /* strategic */
 

@@ -18,6 +18,15 @@
     .benefit-card {
         flex-basis: calc(50% - 30px);
     }
+
+    .card {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .card-img img{
+        position: static;
+        left: 0;
 }
 
 /* ************** Under 576px **************** */
