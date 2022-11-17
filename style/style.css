@@ -211,4 +211,13 @@ main {
 #get-started {
     background-color: #9792e4;
     text-align: center;
+    height: 500px;
+}
+
+/* footer */
+
+footer {
+    background-color: #333333;
+    height: 200px;
+    color: white;
 }
