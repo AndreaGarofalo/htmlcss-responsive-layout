@@ -229,13 +229,38 @@ main {
     text-align: center;
 }
 
+.prefaction > * {
+    padding: 15px 0;
+}
+
+.prefaction > h2 {
+    color: #9792e4;
+    font-size: 50px;
+}
+
+.prefaction > h3 {
+    font-weight: normal;
+    font-size: 23px;
+    
+}
+
+.prefaction > p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+
 .testimonial-card {
     background-color: #9792e4;
-    border-radius: 15px;
+    border-radius: 45px;
     height:200px;
     margin: 20px 0;
     align-items: center;
     padding: 20px;
+}
+
+.person-photo {
+    flex-basis: 20%;
 }
 
 .person-img {
@@ -243,12 +268,26 @@ main {
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
+    color: white;
 }
 
 .testimonial-card img {
     height: 150px;
     transform: translate(-30px); 
 }
+
+.person-quote {
+    flex-basis: 80%;
+    color: white;
+}
+
+.person-quote p {
+    margin: 20px;
+}
+.person-quote p:first-child {
+    font-size: 16px;
+}
+
 
 /* work with us */
 
@@ -297,7 +336,7 @@ main {
     height: 150px;
 }
 
-.fa-quote-left{
+.person .fa-quote-left{
     color: #9792e4;
     position: absolute;
     top: -12px;
